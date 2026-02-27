@@ -14,10 +14,10 @@ data:
   API_URL_SERVER_SIDED: "http://api-ifroevents:80"
   
   # Client-side (chamadas do navegador - URL pública)
-  NEXT_PUBLIC_API_URL: "https://api-ifroevents.app.fslab.dev"
+  NEXT_PUBLIC_API_URL: "https://api.mural.fslab.dev"
   
   # NextAuth Configuration
-  NEXTAUTH_URL: "https://ifroevents.app.fslab.dev"
+  NEXTAUTH_URL: "https://mural.fslab.dev"
   AUTH_TRUST_HOST: "true"
   
   # NEXTAUTH_SECRET gerado com: openssl rand -base64 48

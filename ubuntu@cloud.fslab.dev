@@ -1,0 +1,13 @@
+AUTH_SECRET="ULtrqxKkoXVsBWZ3+hoj5ABTzr+SeW+ZqHo/VRHVPok=" # Added by npx auth. Read more: https://cli.authjs.dev
+
+NEXTAUTH_SECRET="ULtrqxKkoXVsBWZ3+hoj5ABTzr+SeW+ZqHo/VRHVPok="
+
+# Client side
+NEXT_PUBLIC_API_URL=http://localhost:3001
+
+NEXTAUTH_URL=http://localhost:3000
+
+# Server side (em produção deve ser o nome do container)
+API_URL_SERVER_SIDED=http://localhost:3001
+
+NEXT_PUBLIC_AMBIENTE=development
