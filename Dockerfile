@@ -5,7 +5,7 @@ WORKDIR /app
 
 ARG NEXT_PUBLIC_AMBIENTE=production
 ENV NEXT_PUBLIC_AMBIENTE=$NEXT_PUBLIC_AMBIENTE
-ARG NEXT_PUBLIC_API_URL=https://api-ifroevents.app.fslab.dev
+ARG NEXT_PUBLIC_API_URL=https://api.mural.fslab.dev
 ENV NEXT_PUBLIC_API_URL=$NEXT_PUBLIC_API_URL
 
 COPY package.json package-lock.json ./
